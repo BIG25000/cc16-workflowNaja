@@ -32,3 +32,5 @@ git branch ///// ต้องขึ้นแบบนี้ถึงจะโอ
 
 11. git checkout -b feature/
 **** ต้องอยู่ branch develop นะ ก่อนแตก
+
+12. git add . => git commit -m "" / หาดูนะ convention
