@@ -34,3 +34,18 @@ git branch ///// ต้องขึ้นแบบนี้ถึงจะโอ
 **** ต้องอยู่ branch develop นะ ก่อนแตก
 
 12. git add . => git commit -m "" / หาดูนะ convention
+
+13. git checkout develop ก่อน
+
+14. git merge feature/createWhat เข้า develop
+
+15. push code ขึ้นไปบน remote เพื่อให้เพื่อนเห็น ได้ก่อนคนเดียว
+
+16. git fetch การอัพเดทข้อมูล
+
+17. update remote ลงเครื่องก่อน local 
+******** git pull ลงมา ***** ต้องขึ้นแบบนี้ถึงจะโอเครหากมีอันเดียวให้ใช้คำสั่งข้างล่าง
+
+18. rebase message , mergeเส้นเยอะ 
+
+19. ตัดสินใจ ตอน git pull head
