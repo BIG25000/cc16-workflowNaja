@@ -1,2 +1,34 @@
+create repo => add friends 
+remote => ที่อยู่บน repo 
 1. git init
+
 2. git add => git commit
+สร้าง repo ต้อง จัดการ remote
+
+3. git remote add origin https://github.com/BIG25000/cc16-workflowNaja.git
+
+4. git remote -v เป็นการเช็ค
+   origin  https://github.com/BIG25000/cc16-workflowNaja.git (fetch)
+   origin  https://github.com/BIG25000/cc16-workflowNaja.git (push)
+หน้าตาข้อมูลหลังจากส่ง
+
+5. git branch -M main เปลี่ยนเป็น main ถ้า main อยู่แล้วหรือไม่อยากเปลี่ยน ก็ไม่ต้องใช้คำสั่ง
+
+6. git push -u origin main ครั้งแรกต้องคำสั่งนี้นะจ๊ะ เชื่อมอะไรสักอย่าง git push -u เป็นการเปิดช่องเชื่อมต่อ 
+
+7. ไป branch git checkout -b develop (develop) ทำงานบน branch นี้ นะจ๊ะ
+
+8. git push -u origin develop => branch push
+
+9. ให้เพื่อน ๆ clone ส่งลิ้งไปให้เพื่อน 
+
+10. git branch เช็ค 
+
+git branch ///// ต้องขึ้นแบบนี้ถึงจะโอเครหากมีอันเดียวให้ใช้คำสั่งข้างล่าง
+* develop
+  main
+
+หลังจากนั้น git checkout develop
+
+11. git checkout -b feature/
+**** ต้องอยู่ branch develop นะ ก่อนแตก
